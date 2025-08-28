@@ -23,25 +23,26 @@ noFill();
 arc(247,210,50,50,radians(345),radians(435));
 
 //bowtie
-stroke(0,0,0);
+stroke(255,70,162);
 strokeWeight(1);
-fill(0,0,0);
+fill(255,70,162);
 triangle(260,175 ,275,185 ,260,195);
 triangle(290,175 ,280,185 ,290,195);
 ellipse(277,185,10,10)
-fill(255,70,162)
+fill(255,255,255)
 ellipse(278,185,5,5)
 triangle(265,178 ,270,185 ,265,190);
 triangle(290,178 ,285,185 ,290,190);
-
+noFill();
+strokeWeight(5);
+arc(258,158,105,55,radians(90),radians(170));
 //wing
 fill(255,200,58)
 noStroke();
 ellipse(220,211,40,48);
 triangle(175,220, 215,187, 215,235); 
-noStroke();
-
 //beak
+strokeWeight(1);
 fill(255,170,0);//orange
 triangle(287,145, 267,165, 312,165);
 arc(290,165,45,15,0,PI);
@@ -82,4 +83,5 @@ arc(235,230,120,60,radians(0),radians(45));
 arc(235,230,150,100,radians(0),radians(45));
 arc(235,230,120,60,radians(345),radians(360));
 arc(235,230,150,100,radians(320),radians(360));
+
 }
