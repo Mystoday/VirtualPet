@@ -2,8 +2,8 @@ void setup(){
 size(400,400);
 background(18,240,255);
 }
-void draw(){
 
+void draw(){
 //shadow
 noStroke();
 fill(255,200,58);
@@ -60,7 +60,7 @@ stroke(255,255,255);
 strokeWeight(10);
 noFill();
 arc(247,210,50,50,radians(345),radians(425));
-arc(258,140,50,50,radians(320),radians(330))
+arc(258,140,50,50,radians(320),radians(328))
 
 //hat
 noStroke(0);
