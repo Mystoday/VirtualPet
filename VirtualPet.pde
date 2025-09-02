@@ -2,8 +2,8 @@ void setup(){
 size(400,400);
 background(18,240,255);
 }
-
 void draw(){
+
 //shadow
 noStroke();
 fill(255,200,58);
@@ -30,9 +30,9 @@ strokeWeight(1);
 fill(255,70,162);
 triangle(260,175 ,275,185 ,260,195);
 triangle(290,175 ,280,185 ,290,195);
-ellipse(277,185,10,10)
-fill(255,255,255)
-ellipse(278,185,5,5)
+ellipse(277,185,10,10);
+fill(255,255,255);
+ellipse(278,185,5,5);
 triangle(265,178 ,270,185 ,265,190);
 triangle(290,178 ,285,185 ,290,190);
 noFill();
@@ -43,11 +43,11 @@ arc(260,160,110,55,radians(92),radians(168));
 noStroke();
 fill(244,192,59);
 ellipse(217,214,40,48);
-triangle(172,223, 212,190, 212,238); 
-fill(255,200,58)
+triangle(172,223, 212,190, 212,238);
+fill(255,200,58);
 noStroke();
 ellipse(220,211,40,48);
-triangle(175,220, 215,187, 215,235); 
+triangle(175,220, 215,187, 215,235);
 
 //beak
 strokeWeight(1);
@@ -60,10 +60,10 @@ stroke(255,255,255);
 strokeWeight(10);
 noFill();
 arc(247,210,50,50,radians(345),radians(425));
-arc(258,140,50,50,radians(320),radians(328))
+arc(258,140,50,50,radians(320),radians(330));
 
 //hat
-noStroke(0);
+noStroke();
 strokeWeight(1);
 fill(0,0,0);//black
 ellipse(250,110,90,20);
